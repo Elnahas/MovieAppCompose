@@ -72,7 +72,7 @@ fun DetailsScreen(onBack: () -> Unit) {
 
             NetworkImage(
                 imageUrl = MovieApi.IMAGE_BASE_URL + detailsState.movie?.posterPath,
-                shape = ImageShape.Rounded(12.dp),   // Circle | Oval | Rounded(…)
+                shape = ImageShape.Rounded(12.dp),   //  | Oval | Rounded(…)
                 modifier = Modifier.width(100.dp).height(220.dp),                      // أو width/height منفصلين
                 border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
                 placeholder = null,                 // تقدر تبعت Painter لو عايز
